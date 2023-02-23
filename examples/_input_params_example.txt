@@ -1,0 +1,59 @@
+[Program Information]
+program version: 1.0 initial release
+[Data Information]
+Home Directory of Data: 
+/home/guckel02/Nextcloud2/JGDP_Doktorarbeit/scripts/iterative_scanner/package/test_image/
+Relative Working Directory of the Data Subset:
+2MX/
+Name of Results Folder: 
+parser_test/
+Data Format: 
+png
+Pixel Size: 
+0.097291342914105
+Unit of Pixel size: 
+nm
+[Detection Parameters]
+Canny Edge Detection Threshold p1 (8-bit unsigned integer) 
+70
+Max Radius (pixel): 
+50
+Min Radius (pixel): 
+8
+Radius Interval Size (pixel): 
+2
+Particle Overlap Factor P (no unit) - minimum distance between neighboring particles = P * r: 
+1.5
+Initial Proportional Factor c1 (no unit): 
+0.5
+Lower Limit Proportional Factor c2 (no unit): 
+0.15
+Upper Limit of Logistic Function G: 
+3
+Lower Limit of Logistic Function a: 
+1
+Difference Parameter of Logistic Function b (= G - a): 
+2
+Convergence Speed Parameter of Logistic Function c: 
+0.1
+Low Pixel Regime Threshold of Logistic Function d: 
+12
+use intensity criteria (bool): 
+True
+particle threshold (8 bit gray): 
+70
+[Pre-Processing Parameters]
+Standard Deviation Gaussian Blurring (no unit): 
+2
+Databar Length (Pixel): 
+0
+Constrast Inversion (bool): 
+True
+Use Bottom Threshold (bool): 
+True
+Bottom Threshold: 
+0.0
+use Top Threshold (bool): 
+True
+Top Threshold: 
+1.0
