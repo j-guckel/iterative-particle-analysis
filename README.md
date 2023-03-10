@@ -11,17 +11,17 @@ The software was mainly developed by Jannik Guckel with some support of Daesung 
 The Script is fully written in Python 3 (v 3.9), used of mostly using standard libraries and OpenCV (v 4.5)
 it requires the following packages in order to be ran:
 
-+ PIL
-+ hyperspy
-+ numpy
-+ matplotlib
-+ glob
-+ scipy
-+ ast
-+ csv
-+ os
-+ shutil
-+ openCV
++ [*PIL*](https://pillow.readthedocs.io/en/stable/)
++ [*hyperspy*](https://hyperspy.org/hyperspy-doc/current/user_guide/install.html)
++ [*numpy*](https://numpy.org/install/)
++ [*matplotlib*](https://matplotlib.org/stable/users/index)
++ glob (python core library)
++ [*scipy*](https://scipy.org/install/) 
++ ast (python core library)
++ csv (python core library)
++ os (python core library)
++ shutil (python core library)
++ [*openCV*](https://opencv.org/releases/)
 
 ## Installation and Using the program
 
@@ -30,7 +30,7 @@ The program can then be executed in the terminal by using:
 
 ```
 cd *local direction of this folder*
-python3 iterative_scanner.py
+python3 iterative_particle_analyzer.py
 ```
 
 A more detailed explanation on how to use our code can be found in the 'manual' folder of this repository
