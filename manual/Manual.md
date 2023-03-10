@@ -1,6 +1,5 @@
 # Short Manual of the Software
 
-
 This is an public repository containing the Iterative Scanner Software introduced in *Link to Paper*
 
 ## Dependencies
