@@ -88,7 +88,7 @@ Thresholding (Optional)
 
 Our code uses the following detection Parameters:
 
-+ Canny Edge Detection Threshold `$p_1$`: Upper Gradient Limit for Edge Detection. Necessary for Circular Hough Transform
++ Canny Edge Detection Threshold $p_1$: Upper Gradient Limit for Edge Detection. Necessary for Circular Hough Transform
 + Max Radius, Min Radius, Radius Interval size: These parameters control the iteration over different radius intervals. We use monotonous radius intervals and start from largest to smallest radius (example: 50 to 48, 48 to 46, 46 to 44, ...). Choosing an interval size equal to or larger than the difference between Max Radius and Min Radius effectively disables radius iteration
 + Particle Overlap Factor P: This is a proportionality factor that controls how much the particles are allowed to overlap by determining the minimum distance between 2 neighboring particles for each sub-interval. The minimum neighbor distance for each sub-interval is calculated by $\Delta d_i = P \cdot r_{min}^i$. Default: 1.5
 + `G` , `a` , `b` , `c`, `d` : Function Parameters of the logistic scaling function `S(r)` function (Eq. 2 in Paper). Default Values: `G = 3`, `a = 1`, `b = 2`, `c = 0.1`, `d = 12`. The scaling function `S(r)` can be disabled by choosing large values of `d &rarr \infty`.
