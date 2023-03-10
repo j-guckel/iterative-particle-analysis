@@ -1,27 +1,24 @@
 # Short Manual of the Software
 
-<<<<<<< HEAD:Manual.md
+
 This is an public repository containing the Iterative Scanner Software introduced in *Link to Paper*
-=======
-This is an internal repository containing the Iterative Scanner Software introduced in *Link to paper*
->>>>>>> c621362 (added license and readme):manual/Manual.md
 
 ## Dependencies
 
 The Script is fully written in Python 3 (v 3.9), used of mostly using standard libraries and OpenCV (v 4.5)
 it requires the following packages in order to be ran:
 
-+ PIL
-+ hyperspy
-+ numpy
-+ matplotlib
-+ glob
-+ scipy
-+ ast
-+ csv
-+ os
-+ shutil
-+ openCV
++ [*PIL*](https://pillow.readthedocs.io/en/stable/)
++ [*hyperspy*](https://hyperspy.org/hyperspy-doc/current/user_guide/install.html)
++ [*numpy*](https://numpy.org/install/)
++ [*matplotlib*](https://matplotlib.org/stable/users/index)
++ glob (python core library)
++ [*scipy*](https://scipy.org/install/) 
++ ast (python core library)
++ csv (python core library)
++ os (python core library)
++ shutil (python core library)
++ [*openCV*](https://opencv.org/releases/)
 
 ## Installation and Using the program
 
@@ -29,8 +26,8 @@ Assuming Python3 and the above mentioned libraries are installed, the only insta
 The program can then be executed in the terminal by using:
 
 ```
-cd *local direction of this folder*
-python3 iterative_scanner.py
+cd *parent folder of direction of this folder*
+python3 iterative_particle_analyzer.py
 ```
 
 ## Guides and Explanation of Input Parameters
