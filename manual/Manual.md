@@ -100,7 +100,7 @@ Our code uses the following detection Parameters:
 
 We have talked about it in our paper but can provide more information about our thought process regarding the choices here.
 Without any consideration of resolution effects. The contour of a circle should be proportional to its perimeter in the form of $`V = const \cdot 2 \pi r`$. In practice however, poor resolution affect the perceived circularity of the image object. At low resolution, only the dominant circular shape can be resolved. Minor deviations remain unseen. This results in the particle to be perceived very circular. At high resolution, these details are resolved and the perceived circularity should therefore be reduced. 
-Under these considerations, we wanted a non-linear increase between `V` and `r` with a decreasing but still positive slope. The easiest way to realize such a relationship was to use a modified equation in the form of $V = const {2\pi r} \over {S(r)$, with `S(r)` as a positive function with monotonous growth. A function that fulfills these criteria is the logistic function
+Under these considerations, we wanted a non-linear increase between `V` and `r` with a decreasing but still positive slope. The easiest way to realize such a relationship was to use a modified equation in the form of $V = const {{2\pi r} \over {S(r)}}$, with `S(r)` as a positive function with monotonous growth. A function that fulfills these criteria is the logistic function
 
 ```math
 S(r) = \frac{G}{a + b \exp(-c(r - d))}
