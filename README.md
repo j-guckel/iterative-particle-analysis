@@ -1,6 +1,6 @@
 # Short Manual of the Software
 
-This is an internal repository containing the Iterative Particle analysis software introduced in *Link to paper*
+This is a public repository containing the Iterative Particle analysis software introduced in https://academic.oup.com/mam/advance-article/doi/10.1093/micmic/ozad036/7162605
 
 # Authors
 
@@ -41,4 +41,4 @@ This program is available under the [*GNU General Public License 3*](https://www
 
 ## Citation
 
-Please cite our software at *Link to paper*, if you are using it in any publication. 
+Please cite our software at https://academic.oup.com/mam/advance-article/doi/10.1093/micmic/ozad036/7162605, if you are using it in any publication. 
