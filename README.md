@@ -4,7 +4,7 @@ This is an internal repository containing the Iterative Particle analysis softwa
 
 # Authors
 
-The software was mainly developed by Jannik Guckel with some support of Daesung Park.
+The software was mainly developed by Jannik Guckel and Daesung Park.
 
 ## Dependencies
 
